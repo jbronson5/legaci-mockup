@@ -4,11 +4,5 @@
   "buildCommand": "npm run build",
   "env": {
     "NEXT_PUBLIC_APP_NAME": "Legaci Platform Mockup"
-  },
-  "functions": {
-    "api/**/*.ts": {
-      "memory": 3008,
-      "maxDuration": 30
-    }
   }
 }
