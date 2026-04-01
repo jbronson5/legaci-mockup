@@ -4,5 +4,8 @@
   "buildCommand": "npm run build",
   "env": {
     "NEXT_PUBLIC_APP_NAME": "Legaci Platform Mockup"
+  },
+  "git": {
+    "silent": false
   }
 }
