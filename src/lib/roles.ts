@@ -90,3 +90,174 @@ export const CEO_MODULES = {
     icon: '🤝',
   },
 };
+
+export const CFO_MODULES = {
+  'treasury-management': {
+    name: 'Treasury Management System',
+    description: 'Cash position, 13-week rolling forecast, FCF sweep rules',
+    icon: '💰',
+  },
+  'tax-management': {
+    name: 'Tax Management Infrastructure',
+    description: 'State tax nexus tracker, entity structure optimizer',
+    icon: '📋',
+  },
+  'intercompany-transactions': {
+    name: 'Intercompany Transaction Management',
+    description: 'Billing automation log, inter-company loans',
+    icon: '🔄',
+  },
+  'insurance-risk': {
+    name: 'Insurance & Risk Dashboard',
+    description: 'Total insured value, claims by vertical, renewal calendar',
+    icon: '🛡️',
+  },
+  'financial-controls': {
+    name: 'Financial Controls & Fraud Prevention',
+    description: 'Dual auth rules, vendor master file, anomaly detection',
+    icon: '🔐',
+  },
+};
+
+export const COO_MODULES = {
+  'group-president': {
+    name: 'Group President Command Center',
+    description: 'Portfolio health by company, intervention queue',
+    icon: '👥',
+  },
+  'acquisition-integration': {
+    name: 'Acquisition Integration Playbook',
+    description: 'Timeline from Day 0 through Month 3+ with tasks',
+    icon: '📅',
+  },
+  'capex-management': {
+    name: 'Capital Expenditure Management',
+    description: 'Capex approval workflow, asset register',
+    icon: '🏗️',
+  },
+  'supply-chain': {
+    name: 'Supply Chain & Vendor Management',
+    description: 'Preferred vendor directory, vendor scorecards',
+    icon: '📦',
+  },
+  'quality-control': {
+    name: 'Quality Control & Customer Satisfaction',
+    description: 'NPS tracking by company, Google Review monitoring',
+    icon: '⭐',
+  },
+  'regulatory-compliance': {
+    name: 'Regulatory & License Compliance Center',
+    description: 'License register, OSHA compliance, DOT compliance',
+    icon: '✓',
+  },
+};
+
+export const CMO_MODULES = {
+  'local-marketing': {
+    name: 'Local Marketing Execution Engine',
+    description: 'Google Business Profile, local SEO monitoring',
+    icon: '📍',
+  },
+  'brand-management': {
+    name: 'Portfolio Brand Management',
+    description: 'Brand standards library, compliance audit checklist',
+    icon: '🎨',
+  },
+  'customer-data': {
+    name: 'Customer Data Platform',
+    description: 'Centralized customer database, lifetime value',
+    icon: '👤',
+  },
+  'competitive-intelligence': {
+    name: 'Competitive Intelligence',
+    description: 'Win/loss analysis, market pricing intelligence',
+    icon: '🎯',
+  },
+};
+
+export const CHRO_MODULES = {
+  'workforce-planning': {
+    name: 'Workforce Planning & Analytics',
+    description: 'Headcount forecast, turnover analytics',
+    icon: '📈',
+  },
+  'compensation': {
+    name: 'Compensation Benchmarking',
+    description: 'Real-time market data, pay compression alerts',
+    icon: '💵',
+  },
+  'benefits': {
+    name: 'Benefits Administration',
+    description: 'Open enrollment, FSA/HSA, 401k admin',
+    icon: '🏥',
+  },
+  'culture-measurement': {
+    name: 'Culture Measurement',
+    description: 'Quarterly eNPS dashboard, engagement scores',
+    icon: '💡',
+  },
+  'succession-planning': {
+    name: 'President Succession Planning',
+    description: 'Succession depth score, bench strength map',
+    icon: '👔',
+  },
+};
+
+export const CLO_MODULES = {
+  'contract-management': {
+    name: 'Contract Management',
+    description: 'Contract repository, key date extraction',
+    icon: '📜',
+  },
+  'litigation-claims': {
+    name: 'Litigation & Claims Management',
+    description: 'Active litigation register, insurance claims',
+    icon: '⚖️',
+  },
+  'regulatory-filing': {
+    name: 'Regulatory Filing Calendar',
+    description: 'Annual report filing deadlines, license renewals',
+    icon: '📁',
+  },
+  'intellectual-property': {
+    name: 'Intellectual Property Registry',
+    description: 'Trademark tracking, copyright documentation',
+    icon: '🔬',
+  },
+};
+
+export const CRO_MODULES = {
+  'managed-services': {
+    name: 'Managed Services Sales Infrastructure',
+    description: 'Outbound lead scoring, CPA firm partnerships',
+    icon: '🤝',
+  },
+  'pricing-packaging': {
+    name: 'Pricing & Packaging Engine',
+    description: 'Dynamic pricing by tier, expansion revenue',
+    icon: '💎',
+  },
+  'partner-ecosystem': {
+    name: 'Partner Ecosystem',
+    description: 'EOS implementers, franchise associations',
+    icon: '🌐',
+  },
+};
+
+export const CTO_MODULES = {
+  'data-warehouse': {
+    name: 'Data Warehouse Architecture',
+    description: 'Data model visualization, external licensing',
+    icon: '🗄️',
+  },
+  'ai-governance': {
+    name: 'AI Model Governance',
+    description: 'Model versioning, bias monitoring',
+    icon: '🤖',
+  },
+  'integration-marketplace': {
+    name: 'Integration Marketplace',
+    description: 'Available integrations, API status',
+    icon: '🔗',
+  },
+};
