@@ -56,12 +56,24 @@ export function Header({ role, onRoleChange, selectedCompany = 'consolidated', o
             border: '1px solid var(--slate-300)',
             fontSize: '0.875rem',
             fontWeight: '500',
+            maxWidth: '280px',
           }}
         >
-          <option value="holdco">👔 HoldCo Leadership</option>
-          <option value="company-president">🏢 Company President</option>
-          <option value="employee">👤 Employee</option>
-          <option value="customer">🌐 External Customer</option>
+          <optgroup label="Executive Leadership">
+            <option value="holdco">👔 HoldCo Leadership</option>
+            <option value="cfo">💰 Chief Financial Officer</option>
+            <option value="coo">⚙️ Chief Operating Officer</option>
+            <option value="cmo">📢 Chief Marketing Officer</option>
+            <option value="chro">👥 Chief HR Officer</option>
+            <option value="clo">⚖️ Chief Legal Officer</option>
+            <option value="cro">🚀 Chief Revenue Officer</option>
+            <option value="cto">🤖 Chief Technology Officer</option>
+          </optgroup>
+          <optgroup label="Operational">
+            <option value="company-president">🏢 Company President</option>
+            <option value="employee">👤 Employee</option>
+            <option value="customer">🌐 External Customer</option>
+          </optgroup>
         </select>
 
         {/* Actions */}

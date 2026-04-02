@@ -1,10 +1,45 @@
-export type UserRole = 'holdco' | 'company-president' | 'employee' | 'customer';
+export type UserRole = 'holdco' | 'company-president' | 'employee' | 'customer' | 'cfo' | 'coo' | 'cmo' | 'chro' | 'clo' | 'cro' | 'cto';
 
 export const ROLES = {
   holdco: {
     name: 'HoldCo Leadership',
     description: 'Portfolio oversight, capital allocation, investor relations',
     icon: '👔',
+  },
+  cfo: {
+    name: 'Chief Financial Officer',
+    description: 'Treasury, tax, financial controls, compliance',
+    icon: '💰',
+  },
+  coo: {
+    name: 'Chief Operating Officer',
+    description: 'Operations, integration, compliance, quality',
+    icon: '⚙️',
+  },
+  cmo: {
+    name: 'Chief Marketing Officer',
+    description: 'Local marketing, brand, customer data, competitive intel',
+    icon: '📢',
+  },
+  chro: {
+    name: 'Chief HR Officer',
+    description: 'Workforce planning, compensation, culture, succession',
+    icon: '👥',
+  },
+  clo: {
+    name: 'Chief Legal Officer',
+    description: 'Contracts, litigation, regulatory filings, IP',
+    icon: '⚖️',
+  },
+  cro: {
+    name: 'Chief Revenue Officer',
+    description: 'Sales, pricing, partnerships, managed services',
+    icon: '🚀',
+  },
+  cto: {
+    name: 'Chief Technology Officer',
+    description: 'Data warehouse, AI governance, integrations',
+    icon: '🤖',
   },
   'company-president': {
     name: 'Portfolio Company President',
