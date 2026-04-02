@@ -67,3 +67,26 @@ export const MODULES = {
     slug: 'investor-relations',
   },
 };
+
+export const CEO_MODULES = {
+  'ceo-briefing': {
+    name: 'CEO Daily Briefing',
+    description: '60-second AI-generated executive summary',
+    icon: '📋',
+  },
+  'portfolio-strategy': {
+    name: 'Portfolio Strategy Command Center',
+    description: 'Strategic portfolio map and value optimization',
+    icon: '🎯',
+  },
+  'scenario-planning': {
+    name: 'Scenario Planning Engine',
+    description: 'Bull/base/bear case modeling across portfolio',
+    icon: '📊',
+  },
+  'board-management': {
+    name: 'Board Management Module',
+    description: 'Board packs, governance calendar, director onboarding',
+    icon: '🤝',
+  },
+};
